@@ -1,0 +1,39 @@
+.bg-light-blue{
+  /* background-color: #f1f4fe; */
+  /* background: linear-gradient(#cbdafb,#d7e2f8,#e0e7f9) */
+  background: linear-gradient(to bottom right, #cbdafb , #e5edfd);
+}
+
+.bg-light-orange{
+  background-color: #fff7ee;
+}
+
+.bg-light-pink{
+  background-color: #fdf3fc;
+}
+
+.bg-light-green {
+  background-color: #eef9fb;
+}
+.bg-light-red{
+  background-color: #fee2e2;
+}
+.bg-light-lime{
+  background-color: #ecfccb;
+}
+body{
+  font-family: Poppins;
+}
+[class*=sidebar-dark] .form-control-sidebar, [class*=sidebar-dark] .btn-sidebar {
+  background-color: transparent; 
+  border:1px solid #eee;
+  font-size: 0.8rem;
+}
+
+[class*=sidebar-dark] .user-panel {
+  border-bottom: 1px solid #fefefe;
+}
+
+[class*=sidebar-dark] .brand-link {
+  border-bottom: 1px solid #fefefe;
+}

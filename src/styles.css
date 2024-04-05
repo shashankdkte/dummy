@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  font-family: "Poppins", sans-serif;
+  font-size: 75%;
+}
+[class*=sidebar-dark-] {
+  background-color: rgb(252, 254, 254);
+}
+[class*=sidebar-dark-] .sidebar a {
+  color: #111;
+}
+.content-wrapper {
+   background-color: rgb(254, 254, 254); 
+}
+[class*=sidebar-dark] .brand-link .pushmenu {
+}
+[class*=sidebar-dark] .brand-link, [class*=sidebar-dark] .brand-link .pushmenu {
+  color: #000;
+  font-family: "Poppins",sans-serif;
+
+}
+.brand-link {
+  display: block;
+  font-size: 1rem;
+  transition: font-size 0.3s ease, color 0.3s ease; /* Smooth transition for font-size and color */
+}
+
+/* Visited link */
+.brand-link a:visited {
+  color: #665; /* Adjust as needed */
+}
+
+/* Hover link */
+.brand-link a:hover {
+  color: #e33; /* Example hover color */
+  font-size: 1.1rem; /* Slightly larger font size on hover */
+  text-decoration: underline;
+}
+
+/* Focused link */
+.brand-link a:focus {
+  color: #c55; /* Example focus color */
+  outline: 2px dashed #c55;
+  font-size: 1.1rem; /* Consistent with hover state */
+}
+
+[class*=sidebar-dark-] .sidebar a:hover, [class*=sidebar-dark-] .sidebar a:focus {
+  text-decoration: none;
+}
+[class*=sidebar-dark-] .user-panel a:hover {
+  color:#000;
+}
+.elevation-4 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}

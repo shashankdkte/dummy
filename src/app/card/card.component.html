@@ -1,0 +1,13 @@
+<div class="small-box" [ngClass]="[bgClass]" [ngStyle]="customStyles" style="{{linear}}">
+  <div class="inner">
+    <h3>{{ value }}<ng-container *ngIf="unit"><sup style="font-size: 15px;">{{ unit }}</sup></ng-container>
+    </h3>
+    <p>{{ description }}</p>
+  </div>
+  <div class="icon">
+    <i class="{{ icon }}" [ngStyle]="{color:fontColor}"></i>
+  </div>
+  <a [routerLink]="['/details',id]" class="small-box-footer"
+     [ngStyle]="{backgroundColor:bgFooter,color:fontColor}">{{ footerText }} <i
+       class="fas fa-arrow-circle-right"></i></a>
+</div>

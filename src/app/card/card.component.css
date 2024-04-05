@@ -1,0 +1,12 @@
+:host{
+  width: 100%;
+  display: inline-block;
+}
+
+.small-box h3{
+  font-size: 1.5rem;
+}
+
+.small-box p{
+  font-size: 0.75rem;
+}

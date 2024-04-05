@@ -35,9 +35,30 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.min.css",
+              "node_modules/icheck-bootstrap/icheck-bootstrap.min.css",
+              "node_modules/jqvmap/dist/jqvmap.min.css",
+              "node_modules/admin-lte/dist/css/adminlte.css",
+              "node_modules/overlayscrollbars/styles/overlayscrollbars.min.css",
+              "node_modules/daterangepicker/daterangepicker.css",
+              "node_modules/summernote/dist/summernote-bs4.min.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/jquery-ui/dist/jquery-ui.min.js",
+              "node_modules/jquery-sparkline/jquery.sparkline.js",
+              "node_modules/jqvmap/dist/jquery.vmap.min.js",
+              "node_modules/jqvmap/dist/maps/jquery.vmap.usa.js",
+              "node_modules/jquery-knob/dist/jquery.knob.min.js",
+            
+              "node_modules/summernote/dist/summernote-bs4.min.js",
+              "node_modules/overlayscrollbars/browser/overlayscrollbars.browser.es5.min.js",
+              "node_modules/admin-lte/dist/js/adminlte.js",
+              "node_modules/admin-lte/dist/js/demo.js",
+              "node_modules/admin-lte/dist/js/pages/dashboard.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -106,5 +127,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
